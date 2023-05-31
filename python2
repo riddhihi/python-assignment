@@ -1,0 +1,10 @@
+a= 2,3,4,55,56,78,75,69,66,101,100
+even=0
+odd=0
+for num in a:
+                    if num % 2 == 0:
+                       even+=1
+                    else:
+                      odd+=1
+print("number of even numbers=", even)
+print("number of odd numbers=",odd)
